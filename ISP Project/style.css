@@ -1,0 +1,97 @@
+.button
+{
+    background-color: grey; 
+    border: solid;
+    border-color:  black;
+	color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+	
+.button2
+{
+    background-color: black; 
+    border: solid;
+	border-color: grey;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.button3
+{
+    background-color: red; 
+    border: solid;
+	border-color: grey;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+body
+{
+	font-family: Trebuchet MS;
+	text-align: center;
+	background-color: orange;
+}
+	
+#customize
+{
+  	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+#text
+{
+  	font-family: Trebuchet MS;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#media
+{
+  	font-family: Trebuchet MS;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#other
+{
+  	font-family: Trebuchet MS;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#control
+{
+  	font-family: Trebuchet MS;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#WPtitle
+{
+	clear: both;
+	float: bottom;
+}
+
+#userWebPage
+{
+	height: 1000px;
+	width: 100%;
+	clear: both;
+	float: bottom;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<title> Term Project </title>
+	<head>
+		<link rel = "stylesheet" href = "style.css">
+		<script type = "text/javascript"  src = "prj.js" ></script>
+	</head>
+	<body onload="getCookie()">
+		<h1> Term Project </h1>
+		
+		<h3>Created By:</h3>
+		<p>
+		  Moayed Aljaser <br/>
+		  Adam Coard <br/>
+		  Amr Hassanein
+		</p>
+
+		<a href= "techDoc.html"> How To Use (Online Technical Document) </a> <br/>
+		<a href= "https://www.dropbox.com/s/g64r4fv6ufbsa8s/Term%20Project%20Final%20Report.docx?dl=0"> Final Report </a><br/>
+		<a href= "https://www.dropbox.com/s/jadlc2bmzkel4qp/Term%20Project%20Powerpoint.pptx?dl=0"> PowerPoint Presentation </a>
+		
+		
+		<h2> Customize Appearance </h2>
+		
+		<div id = "customize">
+		
+		<button class="button" onClick="changeBackground()">Change Background Color</button>
+		
+		<button class="button" onClick="changeFontColor()">Change Font Color</button>
+		
+		<button class="button" onClick="changeFontSize()">Change Font Size In %</button>
+		
+		<button class="button" onClick="changeTextAlign()">Change Text Allignment</button>
+		
+		<br/> <br/>
+		
+		<input type="text" name="color" size="15" id="color" />
+		<input type="text" name="fontColor" size="15" id="color1" />
+		<input type="text" name="fontSize" size="15" id="size" />
+		<input type="text" name="textAlignment" size="15" id="place" />
+		
+		</div>
+		
+		<h2> Add Features </h2>
+		
+		<div id = "text">
+		
+		<h3> Text </h3>
+		
+		<button class="button button2" onclick="addHeading()">Add Heading</button> <br/>
+
+		<button class="button button2" onclick="addText()">Add Text</button> <br/>
+		
+		<button class="button button2" onclick="addShortQuote()">Add Short quote</button> <br/>
+
+		<button class="button button2" onclick="addBlockquote()">Add Block quote</button> <br/>
+		
+		</div>
+		
+		<div id = "media">
+		
+		<h3> Media </h3>
+		
+		<button class="button button2" onclick="addImage()">Add Image</button> <br/>
+
+		<button class="button button2" onclick="addVideo()">Add Video</button> <br/>
+		
+		</div>
+		
+		<div id = "other">
+		
+		<h3> Other </h3>
+		
+		<button class="button button2" onclick ="addLink()">Add Link</button> <br/>
+		
+		<button class="button button2" onclick="addDate()">Add Date/Time</button> <br/>
+	
+		<button class="button button2" onclick="addLineBreak()">Add Line Break</button> <br/>
+
+		<button class="button button2" onclick="addHorizontalRule()">Add Horizontal Rule</button> <br/>
+
+		<button class="button button2" onclick="addTextbox()">Add Text box</button> <br/>
+		
+		<button class="button button2" onclick="addButton()">Add A Button</button> <br/>
+		
+		</div>
+		
+		<div id = "control">
+		
+		<h3> Control </h3>
+
+		<button class="button button2" onclick="setCookie()">Set Cookies</button> <br/>
+
+		<button class="button button2" onclick="removeCookies()">Clear Cookies</button>
+		<br/>
+		
+		<a href="javascript:history.go(0)"><button class="button button3" onclick="resetPage()">Reset</button></a> <br/>
+
+		</div>
+		
+		<div id = "WPtitle">
+		<br/> <h2> Your Web Page </h2>
+		</div>
+		
+		<div id = "userWebPage">
+		</div>
+		
+    </body>
+</html>
