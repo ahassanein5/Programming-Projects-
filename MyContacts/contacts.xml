@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>amr</first_name>
+	<last_name>hass</last_name>
+	<phone_number>330256</phone_number>
+	<notes>hello</notes>
+</contact>
+<contact>
+	<first_name>asdfa</first_name>
+	<last_name>sdf</last_name>
+	<phone_number>dfasdfas</phone_number>
+	<notes>dsfasd</notes>
+</contact>
+</contacts>
